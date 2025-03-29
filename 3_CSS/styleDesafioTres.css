@@ -1,0 +1,17 @@
+.texto-box{
+    color: aquamarine;
+    opacity: 0.2;
+}
+
+#box-m{
+    height: 200px;
+    width: 300px;
+    border: 5px solid rgb(13, 166, 190);
+    margin-top: 300px;
+    margin-left: 600px;
+    border-radius: 10px;
+    padding: 100px 10px 0px 10px;
+    background-color: #875;
+    outline: 5px solid #500;
+
+}
