@@ -282,4 +282,142 @@ h2{
 
 /*Fontes */
 
-.serif
+.serif {
+    font-family: Georgia;
+}
+
+.sans-serif {
+    font-family: helvetica;
+}
+
+.monosspace {
+    font-style: "Courie new";
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.fantasy {
+    font-family: fantasy; 
+}
+
+/*Text style */
+.italic {
+    font-style: italic;
+}
+
+.oblique{
+    font-style: oblique;
+}
+/* font weight */
+.thin {
+    font-weight: 100;
+}
+.bold {
+    font-weight: 600;
+}
+.bolder {
+    font-weight: 900;
+}
+
+/* font size - tamanho da letra  */
+
+.small {
+    font-size: 7px;
+}
+.big {
+    font-size: 78px;
+}
+
+/* display  */
+.inline-box {
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+.block {
+    background-color: #333;
+    display: block;
+    margin: 10px;
+
+}
+/* escondendo elemento  */
+.invisible {
+    display: none;
+}
+
+/* static  */
+.static {
+    position: static;
+    background-color: #391;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+}
+/* Relativo  */
+.relative {
+    position: relative;
+    background-color: #144;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+}
+/* Absolute  */
+.absolute {
+    position: absolute;
+    background-color: #945;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: 2px;
+    
+}
+/* Absolute e relative */
+.relative-container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+.absolute1,
+.absolute2 {
+    width: 50px;
+    height: 50px;
+    background-color: #422;
+    position: absolute;
+}
+.absolute1 {
+    top: 10px;
+    left: 10px;
+}
+.absolute2 {
+    bottom: 10px;
+    right: 10px;
+}
+/* Fixed */
+.fixed {
+    width: 100px;
+    height: 100px;
+    background-color: #851;
+    border: 1px solid blue;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+/* Fixed */
+.stick {
+    width: 100px;
+    height: 100px;
+    background-color: #994;
+    border: 1px solid green;
+    position: sticky;
+    top: 1px;
+    
+}
