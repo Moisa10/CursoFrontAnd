@@ -419,5 +419,28 @@ h2{
     border: 1px solid green;
     position: sticky;
     top: 1px;
-    
+}
+/* z-index */
+.absolute3, .absolute4, .absolute5 {
+    width: 50px;
+    height: 50px;
+    background-color: #123;
+    position: absolute;
+}
+.absolute3 {
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+}
+.absolute4 {
+    top: 10px;
+    left: 10px;
+    background-color: #246;
+    z-index: 2;
+}
+.absolute5 {
+    top: 40px;
+    left: 40px;
+    background-color: #453;
+    z-index: 1;
 }
